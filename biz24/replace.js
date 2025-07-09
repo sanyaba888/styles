@@ -1,0 +1,30 @@
+document.body.innerHTML = document.body.innerHTML.replace('>Elektro</label>', '><img src="/image/402904/electro.png" style="padding-right: 10px">Elektro</label>');
+document.body.innerHTML = document.body.innerHTML.replace('>Diesel</label>', '><img src="/image/402903/diesel.png" style="padding-right: 10px">Diesel</label>');
+document.body.innerHTML = document.body.innerHTML.replace('>Gas</label>', '><img src="/image/402902/gas.png" style="padding-right: 10px">Gas</label>');
+document.body.innerHTML = document.body.innerHTML.replace('>Gabelstapler </label>', '><img src="/image/402863/gabelstapler-form.png" style="padding-right: 10px">Gabelstapler</label>');
+document.body.innerHTML = document.body.innerHTML.replace('>Lagertechnik</label>', '><img src="/image/402864/lagertechnik.png" style="padding-right: 10px">Lagertechnik</label>');
+document.body.innerHTML = document.body.innerHTML.replace('>Sonstige</label>', '><img src="/image/402865/sonstige.png" style="padding-right: 10px">Sonstige</label>');
+
+document.body.innerHTML = document.body.innerHTML.replace('>Linde</label>', '><img src="/image/402936/linde.png" style="padding-right: 10px"></label>');
+document.body.innerHTML = document.body.innerHTML.replace('>Still</label>', '><img src="/image/402938/still.png" style="padding-right: 10px"></label>');
+document.body.innerHTML = document.body.innerHTML.replace('>Toyota</label>', '><img src="/image/402937/toyota.png" style="padding-right: 10px"></label>');
+document.body.innerHTML = document.body.innerHTML.replace('>Jungheinrich</label>', '><img src="/image/402935/jung.png" style="padding-right: 10px"></label>');
+
+document.body.innerHTML = document.body.innerHTML.replace('"width":300', '"width":490');
+document.body.innerHTML = document.body.innerHTML.replace('"height":200', '"height":540');
+document.body.innerHTML = document.body.innerHTML.replace('class="col-lg-8 col-md-8 col-xs-12"', 'class="col-lg-5 col-md-5 col-xs-12"');
+document.body.innerHTML = document.body.innerHTML.replace('class="col-lg-4 col-md-4 col-xs-12"', 'class="col-lg-7 col-md-5 col-xs-12"');
+document.body.innerHTML = document.body.innerHTML.replace('Angebot-id</dt>', '<img src="/image/382597/id.png" style="padding-right: 10px" alt="id">Angebot-id');
+document.body.innerHTML = document.body.innerHTML.replace('Betriebsstunden</dt>', '<img src="/image/382596/betriebsstunden.png" style="padding-right: 10px" alt="betriebsstunden">Betriebsstunden');
+document.body.innerHTML = document.body.innerHTML.replace('Bauh', '<img src="/image/382595/bauhoehe.png" style="padding-right: 10px" alt="bauhoehe">Bauh');
+document.body.innerHTML = document.body.innerHTML.replace('Hubh', '<img src="/image/382573/hubhoehe.png" style="padding-right: 10px" alt="hubhoehe">Hubh');
+document.body.innerHTML = document.body.innerHTML.replace('Tragkraft</dt>', '<img src="/image/382572/tragkraft.png" style="padding-right: 10px" alt="tragkraft">Tragkraft');
+document.body.innerHTML = document.body.innerHTML.replace('Baujahr</dt>', '<img src="/image/382571/baujahr.png" style="padding-right: 10px" alt="baujahr">Baujahr');
+document.body.innerHTML = document.body.innerHTML.replace('Antriebsart</dt>', '<img src="/image/382549/antrieb.png" style="padding-right: 10px" alt="antrieb">Antriebsart');
+document.body.innerHTML = document.body.innerHTML.replace('Sonderausstattung</dt>', '<img src="/image/382670/sonderausstattung.png" style="padding-right: 10px" alt="sonderausstattung">Sonderausstattung');
+document.body.innerHTML = document.body.innerHTML.replace('Hubmast</dt>', '<img src="/image/382665/masttyp.png" style="padding-right: 10px" alt="masttyp">Hubmast');
+document.body.innerHTML = document.body.innerHTML.replace('Modell</dt>', '<img src="/image/382666/model.png" style="padding-right: 10px" alt="model">Modell');
+document.body.innerHTML = document.body.innerHTML.replace('Motor</dt>', '<img src="/image/382667/motor.png" style="padding-right: 10px" alt="motor">Motor');
+document.body.innerHTML = document.body.innerHTML.replace('Reifen vorne</dt>', '<img src="/image/382668/reifen.png" style="padding-right: 10px" alt="Reifen vorne">Reifen vorne');
+document.body.innerHTML = document.body.innerHTML.replace('Reifen hinten</dt>', '<img src="/image/382669/reifen2.png" style="padding-right: 10px" alt="Reifen hinten">Reifen hinten');
+document.body.innerHTML = document.body.innerHTML.replace('Marke</dt>', '<img src="/image/382664/marke.png" style="padding-right: 10px" alt="Marke">Marke');

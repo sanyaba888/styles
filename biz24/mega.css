@@ -1,0 +1,134 @@
+/* mega menu*/
+
+:root {
+	--main-color: #e5a713;
+	--menu-color: #fff;
+	--menu-second-color: #fff;
+	--second-color: #6c6d70;
+	--third-color: #de030c;
+	--cards-color:#d2d3d5;
+	--footer-color:#727480;
+	--footer-form-bg:#727480;
+	--footer-form-text:#fff;
+	--footer-text:#fff;
+	--button-radius:8px;
+	--menu-radius:4px;
+	--cards-radius:16px;
+	--menu--top-text:16px;
+	
+	--swiper-navigation-color: #ffffff;
+	--swiper-theme-color: #e30512;
+	
+	--button-radius:3px;
+	--menu-radius:3px;
+	--cards-radius:3px;
+	
+	--containerWidth: 1320px;
+	--jarralax-section-height: calc(60vh - 10px);
+}
+
+
+/* MEGA MENU Descendant of .nav, Bootstrap specificity (shouldn't be like this) */
+.nav > .dropdown-megamenu {
+  position: static;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav .open .dropdown-container {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
+.dropdown-megamenu > .dropdown-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  padding: 15px;
+  border-radius: 0;
+  background-color: var(--menu-color);
+  border: none;
+  border-radius: 0;
+margin:0;
+}
+.dropdown-megamenu .dropdown-menu {
+  display: block;
+}
+
+/* SKIN CHANGE*/
+
+.dropdown-mega-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.dropdown-mega-menu li {
+  /*  float: left;*/
+   padding: 0 15px;
+}
+
+
+.dropdown-container a {
+    display: block;
+	/*font-weight: 800;*/
+    font-size: 15px;
+    min-width: 318px;
+	color: #000;
+	transition: all 0.3s;
+	display: inline-flex;
+	align-items: center;
+	width: 100%;
+	padding-left: 15px;
+	border-radius: 3px;
+}
+
+.dropdown-container a:hover, .dropdown-container a:focus {
+  color: #000;
+  background-color: var(--main-color);
+  border-radius: var(--button-radius);
+  /*background: linear-gradient(267deg, rgba(38,38,38,0) 0%, rgb(227 5 18) 100%);*/
+}
+
+.icon-mega-menu {
+	/*filter: invert(1) brightness(0.5);*/
+}
+
+.mega-img-place {
+	/*float:left;*/
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.mega-img-place img {
+    max-height: 520px;
+}
+@media only screen and (max-width: 768px) {
+  .mega-img-place {
+	  display: none;
+	 }
+	 
+}
+
+@media only screen and (max-width: 600px) {
+  .dropdown-mega-menu li {
+   width: 100%;	
+   padding: 0;
+}
+
+.dropdown-mega-menu {
+	    margin: 0 -15px;
+}
+}

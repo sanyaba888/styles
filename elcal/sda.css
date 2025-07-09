@@ -1,0 +1,972 @@
+@font-face {font-family: "Bebas Neue";
+src: url("/image/373268/Bebas_Neue_Cyrillic.ttf") format("truetype");
+ }
+
+
+
+body {
+   font-family:"Bebas Neue";
+/*   color: #3a3a3a;;*/
+letter-spacing: 1px;
+background: rgb(0 0 0 / 76%);
+background: #2a2f30;
+    background-image: radial-gradient(#000 5%, transparent 35%);
+    background-size: 3px 3px;
+}
+
+:root {
+	--burger-color: #fff;
+	--main-color: #007a76;
+}
+
+
+
+.default-section .section-text, .wide-section .section-text {
+    min-height: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .form-section form.biznestream-form h3, .form-widget form.biznestream-form h3, .widget-form form.biznestream-form h3, .default-section form.biznestream-form h3, #slideout form.biznestream-form h3, .h4, .h5, .h6 {
+ font-family:"Bebas Neue";
+}
+
+/* basic css*/
+
+.head-default-widget, .section {
+    margin-bottom: 0px;
+}
+
+.h2, .quote {
+padding-bottom: 20px;
+}
+
+.header-head-widgets {
+    padding-bottom: 0px;
+}
+
+.white-text {
+margin: 80px 0;
+}
+
+.quote {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 8px;
+}
+
+.white {
+   color: #fff;
+}
+
+black {
+color: inherit;
+}
+
+.default-section .section-text {
+padding:0;
+}
+.section-text p {
+ padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.text-justify {
+text-align: justify;
+}
+
+
+/*MEGA MENU FIX*/
+@media (min-width: 1200px) {
+.navbar-toggle {
+    display: block;
+}
+
+.navbar-nav > li {
+    float: none;
+}
+
+
+.navbar-collapse.collapse {
+    display: none!important;
+}
+
+.collapse.in {
+    display: block!important;
+}
+}
+
+
+.navbar-container .container > .navbar-header {
+    margin: 0;
+	/*margin-top: 15px;*/
+    /*position: fixed;*/
+    /*z-index: 11111111111111111;*/
+}
+
+.navbar-container .navbar.navbar-fixed-top .container .top-panel {
+    margin-top: 150px!important;
+}
+
+.navbar-container .navbar .container .top-panel {
+ margin-top: 150px;
+}
+
+.navbar-container .navbar.navbar-fixed-top {
+    animation: none!important;
+}
+
+
+
+/*MENU FIX END*/
+
+
+/*MENU STYLE*/
+
+
+header.no-header-widgets {
+   /*padding-top: 0;*/
+}
+
+
+
+.top-panel {
+/*display: none!important;*/
+}
+
+.navbar-container .navbar-header {
+    /*width: 33%;*/
+	width: 100%;
+}
+
+.navbar-container .navbar-toggle {
+    /*position: fixed;*/
+    /*left: 50%;*/
+    z-index: 111;
+    margin: 10px 15px;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand, .navbar > .default-page .container .container .navbar-brand, .default-page .container .navbar > .container .navbar-brand {
+    padding: 15px!important;
+	/*padding:10px;*/
+    margin: 0;
+}
+
+.navbar-container .navbar.navbar-fixed-top {
+    background: transparent;
+    box-shadow: none;
+}
+
+
+.navbar-container .navbar.navbar-fixed-top .container .navbar-brand {
+    padding: 15px!important;
+	/*padding: 10px;*/
+    margin: 0;
+	/*background: rgba(0, 0, 0, 0.8);*/
+}
+
+.navbar-container .navbar.navbar-fixed-top .container .navbar-brand img {
+    /*background: rgba(0, 0, 0, 0.8);*/
+}
+
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 100vh;
+    min-height: 100vh;
+}
+
+.navbar-container .navbar-header {
+    text-align: right;
+}
+
+
+.navbar-container .navbar-collapse {
+    padding: 0 20% 0 20%;
+    padding:0;
+    background: rgba(0, 0, 0, 0.90);
+  /* background-image: url(https://image.biznestream.biz/308925/menu+bg.jpg);*/
+    opacity: 1;
+
+  background:transparent;
+
+  background: url(), linear-gradient(90deg, #000000, rgb(0 0 0 / 0.6) 40%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+	z-index: 1;
+	left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+ .navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-container .container {
+    /*width: 100%;*/
+}
+
+
+.navbar-container .navbar-nav {
+    font-size: 40px;
+}
+
+.navbar-nav > li {
+    float: none;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.navbar-container .navbar {
+    background: transparent;
+}
+
+.navbar-container .navbar-nav {
+    font-size: 4vh!important;
+	text-transform: uppercase;
+	/*font-family: Oswald, sans-serif;*/
+}
+
+.navbar-collapse.collapse {
+height: 100vh!important;
+}
+
+#bs-example-navbar-collapse-1 > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar-nav > li {
+    display: table;
+	text-align: left;
+}
+
+
+.navbar-nav > li {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+-webkit-transform: translate3d(-150px, 0px, 0);
+    transform: translate3d(-150px, 0px, 0);
+}
+
+.navbar-nav > li:nth-child(1) {
+    transition: opacity 500ms ease-out 250ms, -webkit-transform 400ms ease-out 250ms;
+    transition: opacity 500ms ease-out 250ms, transform 400ms ease-out 250ms;
+    transition: opacity 500ms ease-out 250ms, transform 400ms ease-out 250ms, -webkit-transform 400ms ease-out 250ms;
+}
+.navbar-nav > li:nth-child(2) {
+    transition: opacity 500ms ease-out 270ms, -webkit-transform 400ms ease-out 270ms;
+    transition: opacity 500ms ease-out 270ms, transform 400ms ease-out 270ms;
+    transition: opacity 500ms ease-out 270ms, transform 400ms ease-out 270ms, -webkit-transform 400ms ease-out 270ms;
+}
+.navbar-nav > li:nth-child(3) {
+    transition: opacity 500ms ease-out 300ms, -webkit-transform 400ms ease-out 300ms;
+    transition: opacity 500ms ease-out 300ms, transform 400ms ease-out 300ms;
+    transition: opacity 500ms ease-out 300ms, transform 400ms ease-out 300ms, -webkit-transform 400ms ease-out 300ms;
+}
+.navbar-nav > li:nth-child(4) {
+    transition: opacity 500ms ease-out 340ms, -webkit-transform 400ms ease-out 340ms;
+    transition: opacity 500ms ease-out 340ms, transform 400ms ease-out 340ms;
+    transition: opacity 500ms ease-out 340ms, transform 400ms ease-out 340ms, -webkit-transform 400ms ease-out 340ms;
+}
+.navbar-nav > li:nth-child(5) {
+	transition: opacity 500ms ease-out 370ms, -webkit-transform 400ms ease-out 370ms;
+    transition: opacity 500ms ease-out 370ms, transform 400ms ease-out 370ms;
+    transition: opacity 500ms ease-out 370ms, transform 400ms ease-out 370ms, -webkit-transform 400ms ease-out 370ms;
+}
+
+
+.navbar-collapse.collapse.in li {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+
+.navbar-collapse.collapse.in li:nth-child(1) {
+    transition: opacity 500ms ease-out 250ms, -webkit-transform 400ms ease-out 250ms;
+    transition: opacity 500ms ease-out 250ms, transform 400ms ease-out 250ms;
+    transition: opacity 500ms ease-out 250ms, transform 400ms ease-out 250ms, -webkit-transform 400ms ease-out 250ms;
+}
+
+.navbar-collapse.collapse.in li:nth-child(2) {
+    transition: opacity 500ms ease-out 270ms, -webkit-transform 400ms ease-out 270ms;
+    transition: opacity 500ms ease-out 270ms, transform 400ms ease-out 270ms;
+    transition: opacity 500ms ease-out 270ms, transform 400ms ease-out 270ms, -webkit-transform 400ms ease-out 270ms;
+}
+
+
+.navbar-collapse.collapse.in li:nth-child(3) {
+    transition: opacity 500ms ease-out 300ms, -webkit-transform 400ms ease-out 300ms;
+    transition: opacity 500ms ease-out 300ms, transform 400ms ease-out 300ms;
+    transition: opacity 500ms ease-out 300ms, transform 400ms ease-out 300ms, -webkit-transform 400ms ease-out 300ms;
+}
+
+
+.navbar-collapse.collapse.in li:nth-child(4) {
+    transition: opacity 500ms ease-out 340ms, -webkit-transform 400ms ease-out 340ms;
+    transition: opacity 500ms ease-out 340ms, transform 400ms ease-out 340ms;
+    transition: opacity 500ms ease-out 340ms, transform 400ms ease-out 340ms, -webkit-transform 400ms ease-out 340ms;
+}
+
+
+.navbar-collapse.collapse.in li:nth-child(5) {
+	transition: opacity 500ms ease-out 370ms, -webkit-transform 400ms ease-out 370ms;
+    transition: opacity 500ms ease-out 370ms, transform 400ms ease-out 370ms;
+    transition: opacity 500ms ease-out 370ms, transform 400ms ease-out 370ms, -webkit-transform 400ms ease-out 370ms;
+}
+
+
+.navbar-collapse.collapse.in li:nth-child(6) {
+	animation-name: fadeIn;
+    animation-duration: 5s;
+}
+
+
+.navbar-collapse.collapse.in li:nth-child(7) {
+	animation-name: fadeIn;
+    animation-duration: 620ms;
+}
+
+.navbar-collapse.collapse.in li:nth-child(8) {
+	animation-name: fadeIn;
+    animation-duration: 640ms;
+}
+
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav > li > a:focus {
+    background-color: var(--main-color) !important;
+	/*background-color: transparent !important;*/
+    /*color: var(--main-color);*/
+	color:#ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    /*background-color: var(--main-color) !important;*/
+	/*background-color: #ababab!important;*/
+	color: var(--main-color);
+	border-radius: 5px;
+	background-color: transparent !important;
+	/*color: var(--main-color);*/
+}
+
+.navbar-default .navbar-nav > .active:before {
+   /* content: ">>";
+    color: var(--main-color);
+    position: absolute;
+    z-index: 1;
+    left: 0;*/
+}
+
+.navbar-default .navbar-nav > .active:after {
+    /*content: "<<";
+    color: var(--main-color);
+    position: absolute;
+	z-index: 1;
+    top: 0;
+    right: 0;*/
+}
+
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 320px) {
+.navbar-container .navbar-collapse {
+    max-height: 100vh;
+}
+.navbar-container .navbar .container .navbar-collapse {
+    padding: 0;
+    margin: 0;
+}
+.navbar-container .navbar {
+	box-shadow: none;
+	overflow: visible;
+}
+
+.navbar-container .navbar.navbar-fixed-top .container .navbar-brand img {
+    max-width: 90px;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav > li > a:focus {
+    background-color: var(--main-color) !important;
+	background-color: transparent !important;
+    /*text-shadow: 0 0 5px var(--main-color), 0 0 10px var(--main-color), 0 0 15px var(--main-color), 0 0 20px var(--main-color), 0 0 30px var(--main-color), 0 0 40px var(--main-color), 0 0 55px var(--main-color), 0 0 75px var(--main-color);*/
+    color: #fff!important;
+}
+
+
+
+.navbar-nav > li {
+    width: 100%;
+	text-align: center;
+}
+.navbar-container .navbar-nav {
+    width: 100%;
+	overflow: hidden;
+}}
+
+/*MENU STYLE END*/
+
+/* BURGER TRANSFORM MENU*/
+
+.navbar-toggle .icon-bar {
+    transition: 0.55s 0.1s;
+}
+
+.toggled8 span:nth-child(2) {
+	transform: rotate(45deg);
+    transition: 0.55s 0.1s;
+	box-shadow: none!important;
+}
+
+.toggled8 span:nth-child(3) {
+	transform: rotate(-45deg);
+    transition: 0.55s 0.1s;
+	margin-top: -7px!important;
+	box-shadow: none!important;
+}
+
+.toggled8 span:nth-child(4) {
+	transform: rotate(-45deg);
+    transition: 0.55s 0.1s;
+	margin-top: -8px!important;
+	opacity:0;
+	box-shadow: none!important;
+}
+
+.navbar-container .navbar .container .navbar-toggle {
+    min-height: 42px; 
+}
+
+.navbar-container .navbar-toggle:hover, .navbar-container .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.n/avbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fa4795;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 40px;
+    height: 8px;
+   /* border-radius: 2px;*/
+}
+
+.navbar-container .navbar-toggle {
+    background-color: transparent;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: var(--burger-color);
+	/*-webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,1);*/
+	/*-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,1);*/
+	/*box-shadow: 0px 0px 3px 0px rgba(0,0,0,1);*/
+}
+
+
+/* END BURGER TRANSFORM MENU*/
+
+
+/* menu color*/
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-weight: 800;
+    font-size: 8vw;
+    line-height: 0.8;
+   transition: all ease-in-out 0.2s;
+}
+ 
+
+.sproduct {
+padding: 150px 0 30px 0;
+}
+
+.gallery-section .list-small-images > li a {
+    margin: 5px 5px 0 0;
+}
+
+.gallery-section .list-small-images > li:hover img {
+    transform: none;
+}
+
+
+.sproduct-info {
+    text-align: left;
+    font-size: 30px;
+    color: #9e9e9e;
+    line-height: 1.2;
+}
+.sproduct-info h1, .sproduct-info h2, .title_product {
+    font-size: 4vh;
+    font-weight: 100;
+    letter-spacing: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0;
+}
+
+.title_product {
+    font-size: 4vh;
+    font-weight: 100;
+    letter-spacing: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1;
+   /*margin: 0;*/
+   /* padding-bottom:80px;*/
+    padding-left: 30px;
+    padding-right: 30px;
+    color: var(--main-color);
+
+}
+
+
+
+/* order buttons*/
+
+.order-box {
+   padding: 150px 15px;
+}
+
+.cover {
+padding: 15px;
+}
+
+.order-box h3 {
+color:#fff;
+font-size:8vh;
+}
+
+.btn-primary, .main-btn .btn, .main-btn .form-section form.biznestream-form > ul > li button, .form-section form.biznestream-form > ul > li .main-btn button, .main-btn .form-widget form.biznestream-form > ul > li button, .form-widget form.biznestream-form > ul > li .main-btn button, .main-btn .widget-form form.biznestream-form > ul > li button, .widget-form form.biznestream-form > ul > li .main-btn button, .main-btn .default-section form.biznestream-form > ul > li button, .default-section form.biznestream-form > ul > li .main-btn button, .main-btn #slideout form.biznestream-form > ul > li button, #slideout form.biznestream-form > ul > li .main-btn button {
+    color: var(--main-color);
+    background-color: transparent;
+    border-color: var(--main-color);
+    transition-duration: .2s;
+    transition-property: background-color,color;
+    border: 2px solid var(--main-color);
+    /* padding: 7px 35px 6px; */
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.btn-primary:hover {
+    /* color: #fff; */
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn-primary:active:hover, .main-btn .btn:active:hover, .main-btn .form-section form.biznestream-form > ul > li button:active:hover, .form-section form.biznestream-form > ul > li .main-btn button:active:hover, .main-btn .form-widget form.biznestream-form > ul > li button:active:hover, .form-widget form.biznestream-form > ul > li .main-btn button:active:hover, .main-btn .widget-form form.biznestream-form > ul > li button:active:hover, .widget-form form.biznestream-form > ul > li .main-btn button:active:hover, .main-btn .default-section form.biznestream-form > ul > li button:active:hover, .default-section form.biznestream-form > ul > li .main-btn button:active:hover, .main-btn #slideout form.biznestream-form > ul > li button:active:hover, #slideout form.biznestream-form > ul > li .main-btn button:active:hover, .btn-primary.active:hover, .main-btn .btn.active:hover, .main-btn .form-section form.biznestream-form > ul > li button.active:hover, .form-section form.biznestream-form > ul > li .main-btn button.active:hover, .main-btn .form-widget form.biznestream-form > ul > li button.active:hover, .form-widget form.biznestream-form > ul > li .main-btn button.active:hover, .main-btn .widget-form form.biznestream-form > ul > li button.active:hover, .widget-form form.biznestream-form > ul > li .main-btn button.active:hover, .main-btn .default-section form.biznestream-form > ul > li button.active:hover, .default-section form.biznestream-form > ul > li .main-btn button.active:hover, .main-btn #slideout form.biznestream-form > ul > li button.active:hover, #slideout form.biznestream-form > ul > li .main-btn button.active:hover, .open > .btn-primary.dropdown-toggle:hover, .main-btn .open > .btn.dropdown-toggle:hover, .main-btn .form-section form.biznestream-form > ul > li .open > button.dropdown-toggle:hover, .form-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:hover, .main-btn .form-widget form.biznestream-form > ul > li .open > button.dropdown-toggle:hover, .form-widget form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:hover, .main-btn .widget-form form.biznestream-form > ul > li .open > button.dropdown-toggle:hover, .widget-form form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:hover, .main-btn .default-section form.biznestream-form > ul > li .open > button.dropdown-toggle:hover, .default-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:hover, .main-btn #slideout form.biznestream-form > ul > li .open > button.dropdown-toggle:hover, #slideout form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:hover, .btn-primary:active:focus, .main-btn .btn:active:focus, .main-btn .form-section form.biznestream-form > ul > li button:active:focus, .form-section form.biznestream-form > ul > li .main-btn button:active:focus, .main-btn .form-widget form.biznestream-form > ul > li button:active:focus, .form-widget form.biznestream-form > ul > li .main-btn button:active:focus, .main-btn .widget-form form.biznestream-form > ul > li button:active:focus, .widget-form form.biznestream-form > ul > li .main-btn button:active:focus, .main-btn .default-section form.biznestream-form > ul > li button:active:focus, .default-section form.biznestream-form > ul > li .main-btn button:active:focus, .main-btn #slideout form.biznestream-form > ul > li button:active:focus, #slideout form.biznestream-form > ul > li .main-btn button:active:focus, .btn-primary.active:focus, .main-btn .btn.active:focus, .main-btn .form-section form.biznestream-form > ul > li button.active:focus, .form-section form.biznestream-form > ul > li .main-btn button.active:focus, .main-btn .form-widget form.biznestream-form > ul > li button.active:focus, .form-widget form.biznestream-form > ul > li .main-btn button.active:focus, .main-btn .widget-form form.biznestream-form > ul > li button.active:focus, .widget-form form.biznestream-form > ul > li .main-btn button.active:focus, .main-btn .default-section form.biznestream-form > ul > li button.active:focus, .default-section form.biznestream-form > ul > li .main-btn button.active:focus, .main-btn #slideout form.biznestream-form > ul > li button.active:focus, #slideout form.biznestream-form > ul > li .main-btn button.active:focus, .open > .btn-primary.dropdown-toggle:focus, .main-btn .open > .btn.dropdown-toggle:focus, .main-btn .form-section form.biznestream-form > ul > li .open > button.dropdown-toggle:focus, .form-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:focus, .main-btn .form-widget form.biznestream-form > ul > li .open > button.dropdown-toggle:focus, .form-widget form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:focus, .main-btn .widget-form form.biznestream-form > ul > li .open > button.dropdown-toggle:focus, .widget-form form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:focus, .main-btn .default-section form.biznestream-form > ul > li .open > button.dropdown-toggle:focus, .default-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:focus, .main-btn #slideout form.biznestream-form > ul > li .open > button.dropdown-toggle:focus, #slideout form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:focus, .btn-primary:active.focus, .main-btn .btn:active.focus, .main-btn .form-section form.biznestream-form > ul > li button:active.focus, .form-section form.biznestream-form > ul > li .main-btn button:active.focus, .main-btn .form-widget form.biznestream-form > ul > li button:active.focus, .form-widget form.biznestream-form > ul > li .main-btn button:active.focus, .main-btn .widget-form form.biznestream-form > ul > li button:active.focus, .widget-form form.biznestream-form > ul > li .main-btn button:active.focus, .main-btn .default-section form.biznestream-form > ul > li button:active.focus, .default-section form.biznestream-form > ul > li .main-btn button:active.focus, .main-btn #slideout form.biznestream-form > ul > li button:active.focus, #slideout form.biznestream-form > ul > li .main-btn button:active.focus, .btn-primary.active.focus, .main-btn .btn.active.focus, .main-btn .form-section form.biznestream-form > ul > li button.active.focus, .form-section form.biznestream-form > ul > li .main-btn button.active.focus, .main-btn .form-widget form.biznestream-form > ul > li button.active.focus, .form-widget form.biznestream-form > ul > li .main-btn button.active.focus, .main-btn .widget-form form.biznestream-form > ul > li button.active.focus, .widget-form form.biznestream-form > ul > li .main-btn button.active.focus, .main-btn .default-section form.biznestream-form > ul > li button.active.focus, .default-section form.biznestream-form > ul > li .main-btn button.active.focus, .main-btn #slideout form.biznestream-form > ul > li button.active.focus, #slideout form.biznestream-form > ul > li .main-btn button.active.focus, .open > .btn-primary.dropdown-toggle.focus, .main-btn .open > .btn.dropdown-toggle.focus, .main-btn .form-section form.biznestream-form > ul > li .open > button.dropdown-toggle.focus, .form-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle.focus, .main-btn .form-widget form.biznestream-form > ul > li .open > button.dropdown-toggle.focus, .form-widget form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle.focus, .main-btn .widget-form form.biznestream-form > ul > li .open > button.dropdown-toggle.focus, .widget-form form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle.focus, .main-btn .default-section form.biznestream-form > ul > li .open > button.dropdown-toggle.focus, .default-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle.focus, .main-btn #slideout form.biznestream-form > ul > li .open > button.dropdown-toggle.focus, #slideout form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle.focus {
+    color: #fff;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+/*fix blue*/
+
+  .btn-primary:focus, .main-btn .btn:focus, .main-btn .form-section form.biznestream-form > ul > li button:focus, .form-section form.biznestream-form > ul > li .main-btn button:focus, .main-btn .form-widget form.biznestream-form > ul > li button:focus, .form-widget form.biznestream-form > ul > li .main-btn button:focus, .main-btn .widget-form form.biznestream-form > ul > li button:focus, .widget-form form.biznestream-form > ul > li .main-btn button:focus, .main-btn .default-section form.biznestream-form > ul > li button:focus, .default-section form.biznestream-form > ul > li .main-btn button:focus, .main-btn #slideout form.biznestream-form > ul > li button:focus, #slideout form.biznestream-form > ul > li .main-btn button:focus, .btn-primary.focus, .main-btn .btn.focus, .main-btn .form-section form.biznestream-form > ul > li button.focus, .form-section form.biznestream-form > ul > li .main-btn button.focus, .main-btn .form-widget form.biznestream-form > ul > li button.focus, .form-widget form.biznestream-form > ul > li .main-btn button.focus, .main-btn .widget-form form.biznestream-form > ul > li button.focus, .widget-form form.biznestream-form > ul > li .main-btn button.focus, .main-btn .default-section form.biznestream-form > ul > li button.focus, .default-section form.biznestream-form > ul > li .main-btn button.focus, .main-btn #slideout form.biznestream-form > ul > li button.focus, #slideout form.biznestream-form > ul > li .main-btn button.focus {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+  .btn-primary:hover, .main-btn .btn:hover, .main-btn .form-section form.biznestream-form > ul > li button:hover, .form-section form.biznestream-form > ul > li .main-btn button:hover, .main-btn .form-widget form.biznestream-form > ul > li button:hover, .form-widget form.biznestream-form > ul > li .main-btn button:hover, .main-btn .widget-form form.biznestream-form > ul > li button:hover, .widget-form form.biznestream-form > ul > li .main-btn button:hover, .main-btn .default-section form.biznestream-form > ul > li button:hover, .default-section form.biznestream-form > ul > li .main-btn button:hover, .main-btn #slideout form.biznestream-form > ul > li button:hover, #slideout form.biznestream-form > ul > li .main-btn button:hover {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+ }
+  .btn-primary:active, .main-btn .btn:active, .main-btn .form-section form.biznestream-form > ul > li button:active, .form-section form.biznestream-form > ul > li .main-btn button:active, .main-btn .form-widget form.biznestream-form > ul > li button:active, .form-widget form.biznestream-form > ul > li .main-btn button:active, .main-btn .widget-form form.biznestream-form > ul > li button:active, .widget-form form.biznestream-form > ul > li .main-btn button:active, .main-btn .default-section form.biznestream-form > ul > li button:active, .default-section form.biznestream-form > ul > li .main-btn button:active, .main-btn #slideout form.biznestream-form > ul > li button:active, #slideout form.biznestream-form > ul > li .main-btn button:active, .btn-primary.active, .main-btn .btn.active, .main-btn .form-section form.biznestream-form > ul > li button.active, .form-section form.biznestream-form > ul > li .main-btn button.active, .main-btn .form-widget form.biznestream-form > ul > li button.active, .form-widget form.biznestream-form > ul > li .main-btn button.active, .main-btn .widget-form form.biznestream-form > ul > li button.active, .widget-form form.biznestream-form > ul > li .main-btn button.active, .main-btn .default-section form.biznestream-form > ul > li button.active, .default-section form.biznestream-form > ul > li .main-btn button.active, .main-btn #slideout form.biznestream-form > ul > li button.active, #slideout form.biznestream-form > ul > li .main-btn button.active, .open > .btn-primary.dropdown-toggle, .main-btn .open > .btn.dropdown-toggle, .main-btn .form-section form.biznestream-form > ul > li .open > button.dropdown-toggle, .form-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle, .main-btn .form-widget form.biznestream-form > ul > li .open > button.dropdown-toggle, .form-widget form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle, .main-btn .widget-form form.biznestream-form > ul > li .open > button.dropdown-toggle, .widget-form form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle, .main-btn .default-section form.biznestream-form > ul > li .open > button.dropdown-toggle, .default-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle, .main-btn #slideout form.biznestream-form > ul > li .open > button.dropdown-toggle, #slideout form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+  .btn-primary:active:hover, .main-btn .btn:active:hover, .main-btn .form-section form.biznestream-form > ul > li button:active:hover, .form-section form.biznestream-form > ul > li .main-btn button:active:hover, .main-btn .form-widget form.biznestream-form > ul > li button:active:hover, .form-widget form.biznestream-form > ul > li .main-btn button:active:hover, .main-btn .widget-form form.biznestream-form > ul > li button:active:hover, .widget-form form.biznestream-form > ul > li .main-btn button:active:hover, .main-btn .default-section form.biznestream-form > ul > li button:active:hover, .default-section form.biznestream-form > ul > li .main-btn button:active:hover, .main-btn #slideout form.biznestream-form > ul > li button:active:hover, #slideout form.biznestream-form > ul > li .main-btn button:active:hover, .btn-primary.active:hover, .main-btn .btn.active:hover, .main-btn .form-section form.biznestream-form > ul > li button.active:hover, .form-section form.biznestream-form > ul > li .main-btn button.active:hover, .main-btn .form-widget form.biznestream-form > ul > li button.active:hover, .form-widget form.biznestream-form > ul > li .main-btn button.active:hover, .main-btn .widget-form form.biznestream-form > ul > li button.active:hover, .widget-form form.biznestream-form > ul > li .main-btn button.active:hover, .main-btn .default-section form.biznestream-form > ul > li button.active:hover, .default-section form.biznestream-form > ul > li .main-btn button.active:hover, .main-btn #slideout form.biznestream-form > ul > li button.active:hover, #slideout form.biznestream-form > ul > li .main-btn button.active:hover, .open > .btn-primary.dropdown-toggle:hover, .main-btn .open > .btn.dropdown-toggle:hover, .main-btn .form-section form.biznestream-form > ul > li .open > button.dropdown-toggle:hover, .form-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:hover, .main-btn .form-widget form.biznestream-form > ul > li .open > button.dropdown-toggle:hover, .form-widget form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:hover, .main-btn .widget-form form.biznestream-form > ul > li .open > button.dropdown-toggle:hover, .widget-form form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:hover, .main-btn .default-section form.biznestream-form > ul > li .open > button.dropdown-toggle:hover, .default-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:hover, .main-btn #slideout form.biznestream-form > ul > li .open > button.dropdown-toggle:hover, #slideout form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:hover, .btn-primary:active:focus, .main-btn .btn:active:focus, .main-btn .form-section form.biznestream-form > ul > li button:active:focus, .form-section form.biznestream-form > ul > li .main-btn button:active:focus, .main-btn .form-widget form.biznestream-form > ul > li button:active:focus, .form-widget form.biznestream-form > ul > li .main-btn button:active:focus, .main-btn .widget-form form.biznestream-form > ul > li button:active:focus, .widget-form form.biznestream-form > ul > li .main-btn button:active:focus, .main-btn .default-section form.biznestream-form > ul > li button:active:focus, .default-section form.biznestream-form > ul > li .main-btn button:active:focus, .main-btn #slideout form.biznestream-form > ul > li button:active:focus, #slideout form.biznestream-form > ul > li .main-btn button:active:focus, .btn-primary.active:focus, .main-btn .btn.active:focus, .main-btn .form-section form.biznestream-form > ul > li button.active:focus, .form-section form.biznestream-form > ul > li .main-btn button.active:focus, .main-btn .form-widget form.biznestream-form > ul > li button.active:focus, .form-widget form.biznestream-form > ul > li .main-btn button.active:focus, .main-btn .widget-form form.biznestream-form > ul > li button.active:focus, .widget-form form.biznestream-form > ul > li .main-btn button.active:focus, .main-btn .default-section form.biznestream-form > ul > li button.active:focus, .default-section form.biznestream-form > ul > li .main-btn button.active:focus, .main-btn #slideout form.biznestream-form > ul > li button.active:focus, #slideout form.biznestream-form > ul > li .main-btn button.active:focus, .open > .btn-primary.dropdown-toggle:focus, .main-btn .open > .btn.dropdown-toggle:focus, .main-btn .form-section form.biznestream-form > ul > li .open > button.dropdown-toggle:focus, .form-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:focus, .main-btn .form-widget form.biznestream-form > ul > li .open > button.dropdown-toggle:focus, .form-widget form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:focus, .main-btn .widget-form form.biznestream-form > ul > li .open > button.dropdown-toggle:focus, .widget-form form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:focus, .main-btn .default-section form.biznestream-form > ul > li .open > button.dropdown-toggle:focus, .default-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:focus, .main-btn #slideout form.biznestream-form > ul > li .open > button.dropdown-toggle:focus, #slideout form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:focus, .btn-primary:active.focus, .main-btn .btn:active.focus, .main-btn .form-section form.biznestream-form > ul > li button:active.focus, .form-section form.biznestream-form > ul > li .main-btn button:active.focus, .main-btn .form-widget form.biznestream-form > ul > li button:active.focus, .form-widget form.biznestream-form > ul > li .main-btn button:active.focus, .main-btn .widget-form form.biznestream-form > ul > li button:active.focus, .widget-form form.biznestream-form > ul > li .main-btn button:active.focus, .main-btn .default-section form.biznestream-form > ul > li button:active.focus, .default-section form.biznestream-form > ul > li .main-btn button:active.focus, .main-btn #slideout form.biznestream-form > ul > li button:active.focus, #slideout form.biznestream-form > ul > li .main-btn button:active.focus, .btn-primary.active.focus, .main-btn .btn.active.focus, .main-btn .form-section form.biznestream-form > ul > li button.active.focus, .form-section form.biznestream-form > ul > li .main-btn button.active.focus, .main-btn .form-widget form.biznestream-form > ul > li button.active.focus, .form-widget form.biznestream-form > ul > li .main-btn button.active.focus, .main-btn .widget-form form.biznestream-form > ul > li button.active.focus, .widget-form form.biznestream-form > ul > li .main-btn button.active.focus, .main-btn .default-section form.biznestream-form > ul > li button.active.focus, .default-section form.biznestream-form > ul > li .main-btn button.active.focus, .main-btn #slideout form.biznestream-form > ul > li button.active.focus, #slideout form.biznestream-form > ul > li .main-btn button.active.focus, .open > .btn-primary.dropdown-toggle.focus, .main-btn .open > .btn.dropdown-toggle.focus, .main-btn .form-section form.biznestream-form > ul > li .open > button.dropdown-toggle.focus, .form-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle.focus, .main-btn .form-widget form.biznestream-form > ul > li .open > button.dropdown-toggle.focus, .form-widget form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle.focus, .main-btn .widget-form form.biznestream-form > ul > li .open > button.dropdown-toggle.focus, .widget-form form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle.focus, .main-btn .default-section form.biznestream-form > ul > li .open > button.dropdown-toggle.focus, .default-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle.focus, .main-btn #slideout form.biznestream-form > ul > li .open > button.dropdown-toggle.focus, #slideout form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle.focus {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+ }
+  .btn-primary.disabled:hover, .main-btn .btn.disabled:hover, .main-btn .form-section form.biznestream-form > ul > li button.disabled:hover, .form-section form.biznestream-form > ul > li .main-btn button.disabled:hover, .main-btn .form-widget form.biznestream-form > ul > li button.disabled:hover, .form-widget form.biznestream-form > ul > li .main-btn button.disabled:hover, .main-btn .widget-form form.biznestream-form > ul > li button.disabled:hover, .widget-form form.biznestream-form > ul > li .main-btn button.disabled:hover, .main-btn .default-section form.biznestream-form > ul > li button.disabled:hover, .default-section form.biznestream-form > ul > li .main-btn button.disabled:hover, .main-btn #slideout form.biznestream-form > ul > li button.disabled:hover, #slideout form.biznestream-form > ul > li .main-btn button.disabled:hover, .btn-primary[disabled]:hover, .main-btn .btn[disabled]:hover, .main-btn .form-section form.biznestream-form > ul > li button[disabled]:hover, .form-section form.biznestream-form > ul > li .main-btn button[disabled]:hover, .main-btn .form-widget form.biznestream-form > ul > li button[disabled]:hover, .form-widget form.biznestream-form > ul > li .main-btn button[disabled]:hover, .main-btn .widget-form form.biznestream-form > ul > li button[disabled]:hover, .widget-form form.biznestream-form > ul > li .main-btn button[disabled]:hover, .main-btn .default-section form.biznestream-form > ul > li button[disabled]:hover, .default-section form.biznestream-form > ul > li .main-btn button[disabled]:hover, .main-btn #slideout form.biznestream-form > ul > li button[disabled]:hover, #slideout form.biznestream-form > ul > li .main-btn button[disabled]:hover, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .main-btn .btn:hover, fieldset[disabled] .main-btn .form-section form.biznestream-form > ul > li button:hover, .form-section form.biznestream-form > ul > li fieldset[disabled] .main-btn button:hover, fieldset[disabled] .main-btn .form-widget form.biznestream-form > ul > li button:hover, .form-widget form.biznestream-form > ul > li fieldset[disabled] .main-btn button:hover, fieldset[disabled] .main-btn .widget-form form.biznestream-form > ul > li button:hover, .widget-form form.biznestream-form > ul > li fieldset[disabled] .main-btn button:hover, fieldset[disabled] .main-btn .default-section form.biznestream-form > ul > li button:hover, .default-section form.biznestream-form > ul > li fieldset[disabled] .main-btn button:hover, fieldset[disabled] .main-btn #slideout form.biznestream-form > ul > li button:hover, #slideout form.biznestream-form > ul > li fieldset[disabled] .main-btn button:hover, .main-btn fieldset[disabled] .btn:hover, .btn-primary.disabled:focus, .main-btn .btn.disabled:focus, .main-btn .form-section form.biznestream-form > ul > li button.disabled:focus, .form-section form.biznestream-form > ul > li .main-btn button.disabled:focus, .main-btn .form-widget form.biznestream-form > ul > li button.disabled:focus, .form-widget form.biznestream-form > ul > li .main-btn button.disabled:focus, .main-btn .widget-form form.biznestream-form > ul > li button.disabled:focus, .widget-form form.biznestream-form > ul > li .main-btn button.disabled:focus, .main-btn .default-section form.biznestream-form > ul > li button.disabled:focus, .default-section form.biznestream-form > ul > li .main-btn button.disabled:focus, .main-btn #slideout form.biznestream-form > ul > li button.disabled:focus, #slideout form.biznestream-form > ul > li .main-btn button.disabled:focus, .btn-primary[disabled]:focus, .main-btn .btn[disabled]:focus, .main-btn .form-section form.biznestream-form > ul > li button[disabled]:focus, .form-section form.biznestream-form > ul > li .main-btn button[disabled]:focus, .main-btn .form-widget form.biznestream-form > ul > li button[disabled]:focus, .form-widget form.biznestream-form > ul > li .main-btn button[disabled]:focus, .main-btn .widget-form form.biznestream-form > ul > li button[disabled]:focus, .widget-form form.biznestream-form > ul > li .main-btn button[disabled]:focus, .main-btn .default-section form.biznestream-form > ul > li button[disabled]:focus, .default-section form.biznestream-form > ul > li .main-btn button[disabled]:focus, .main-btn #slideout form.biznestream-form > ul > li button[disabled]:focus, #slideout form.biznestream-form > ul > li .main-btn button[disabled]:focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .main-btn .btn:focus, fieldset[disabled] .main-btn .form-section form.biznestream-form > ul > li button:focus, .form-section form.biznestream-form > ul > li fieldset[disabled] .main-btn button:focus, fieldset[disabled] .main-btn .form-widget form.biznestream-form > ul > li button:focus, .form-widget form.biznestream-form > ul > li fieldset[disabled] .main-btn button:focus, fieldset[disabled] .main-btn .widget-form form.biznestream-form > ul > li button:focus, .widget-form form.biznestream-form > ul > li fieldset[disabled] .main-btn button:focus, fieldset[disabled] .main-btn .default-section form.biznestream-form > ul > li button:focus, .default-section form.biznestream-form > ul > li fieldset[disabled] .main-btn button:focus, fieldset[disabled] .main-btn #slideout form.biznestream-form > ul > li button:focus, #slideout form.biznestream-form > ul > li fieldset[disabled] .main-btn button:focus, .main-btn fieldset[disabled] .btn:focus, .btn-primary.disabled.focus, .main-btn .btn.disabled.focus, .main-btn .form-section form.biznestream-form > ul > li button.disabled.focus, .form-section form.biznestream-form > ul > li .main-btn button.disabled.focus, .main-btn .form-widget form.biznestream-form > ul > li button.disabled.focus, .form-widget form.biznestream-form > ul > li .main-btn button.disabled.focus, .main-btn .widget-form form.biznestream-form > ul > li button.disabled.focus, .widget-form form.biznestream-form > ul > li .main-btn button.disabled.focus, .main-btn .default-section form.biznestream-form > ul > li button.disabled.focus, .default-section form.biznestream-form > ul > li .main-btn button.disabled.focus, .main-btn #slideout form.biznestream-form > ul > li button.disabled.focus, #slideout form.biznestream-form > ul > li .main-btn button.disabled.focus, .btn-primary[disabled].focus, .main-btn .btn[disabled].focus, .main-btn .form-section form.biznestream-form > ul > li button[disabled].focus, .form-section form.biznestream-form > ul > li .main-btn button[disabled].focus, .main-btn .form-widget form.biznestream-form > ul > li button[disabled].focus, .form-widget form.biznestream-form > ul > li .main-btn button[disabled].focus, .main-btn .widget-form form.biznestream-form > ul > li button[disabled].focus, .widget-form form.biznestream-form > ul > li .main-btn button[disabled].focus, .main-btn .default-section form.biznestream-form > ul > li button[disabled].focus, .default-section form.biznestream-form > ul > li .main-btn button[disabled].focus, .main-btn #slideout form.biznestream-form > ul > li button[disabled].focus, #slideout form.biznestream-form > ul > li .main-btn button[disabled].focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .main-btn .btn.focus, fieldset[disabled] .main-btn .form-section form.biznestream-form > ul > li button.focus, .form-section form.biznestream-form > ul > li fieldset[disabled] .main-btn button.focus, fieldset[disabled] .main-btn .form-widget form.biznestream-form > ul > li button.focus, .form-widget form.biznestream-form > ul > li fieldset[disabled] .main-btn button.focus, fieldset[disabled] .main-btn .widget-form form.biznestream-form > ul > li button.focus, .widget-form form.biznestream-form > ul > li fieldset[disabled] .main-btn button.focus, fieldset[disabled] .main-btn .default-section form.biznestream-form > ul > li button.focus, .default-section form.biznestream-form > ul > li fieldset[disabled] .main-btn button.focus, fieldset[disabled] .main-btn #slideout form.biznestream-form > ul > li button.focus, #slideout form.biznestream-form > ul > li fieldset[disabled] .main-btn button.focus, .main-btn fieldset[disabled] .btn.focus {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+ }
+
+
+/*adaptive table*/
+
+.br-pr-chr-item {
+    color: #bfbfbf;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.br-pr-chr-item h2, .br-pr-chr-item h3 {
+color: #fff;
+font-size: 34px;
+margin:0;
+padding: 15px;
+}
+
+
+.br-pr-chr-item div div {
+    display: flex;
+    display: -ms-flexbox;
+}
+
+
+.br-pr-chr-item:last-child>div {
+    padding-bottom: 0;
+}
+
+
+.br-pr-chr-item span:first-child {
+    padding: 0 15px;
+    width: 260px;
+}
+
+@media (max-width: 1011px) {
+.br-pr-chr-item span:first-child {
+    padding: 0 10px;
+    width: 55%;
+}}
+
+
+.br-pr-chr-item span:last-child {
+    width: calc(100% - 260px);
+}
+
+.navbar-container .navbar-brand img {
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    padding: 10px;
+   /* border: 8px solid #ebab58;*/
+   /* background: rgb(0 0 0 / 0.3);*/
+}
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 320px) {
+.navbar-container .navbar-brand img {
+    padding: 8px;
+    border: 4px solid #ebab58;
+    background: rgb(0 0 0 / 0.8);
+-webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.navbar-container .navbar-collapse {
+    background: rgba(0, 0, 0, 0.90);
+}
+}
+
+.navbar-container .navbar.navbar-fixed-top .container .navbar-brand img {
+-webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0px;
+    height: 0;
+    margin: 30px 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.page-wrapper {
+    min-height: 100vh;
+    position: relative;
+}
+
+.head-default-widget .head-text-container, .head-slider-widget .head-text-container, .landing-page-widget .head-text-container {
+    position: relative;
+}
+
+.head-default-widget .head-text-container .widget-text, .head-slider-widget .head-text-container .widget-text, .landing-page-widget .head-text-container .widget-text {
+    padding: 0;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleh {
+color: #fff;
+    font-size: 6vh;
+margin:0;
+}
+
+.img-section-100 {
+    min-height: 100vh;
+}
+
+.content-section {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+
+.content-section h2 {
+font-size: 8vh;
+color:var(--main-color);
+}
+
+.content-section ul {
+text-align:left;
+list-style-position: outside;
+}
+.content-section li {
+padding-bottom: 15px;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+
+/* Products hover*/
+
+.sound-hover {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  margin: 10px;
+  max-width: 315px;
+  min-width: 230px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+ /* width: 100%;*/
+}
+
+.sound-hover * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.sound-hover:before,
+.sound-hover:after {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top: 50px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 50px solid rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  z-index: 1;
+  opacity: 0;
+}
+
+.sound-hover:before {
+  -webkit-transform: scaleY(2);
+  transform: scaleY(2);
+}
+
+.sound-hover:after {
+  -webkit-transform: scaleY(2);
+  transform: scaleY(2);
+}
+
+.sound-hover img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.sound-hover figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1em;
+  opacity: 0;
+  z-index: 2;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.sound-hover h3 {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.sound-hover h3 span {
+  display: block;
+  font-weight: 100;
+}
+
+.sound-hover a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.sound-hover:hover > img,
+.sound-hover.hover > img {
+  opacity: 0.7;
+}
+
+.sound-hover:hover:before,
+.sound-hover.hover:before,
+.sound-hover:hover:after,
+.sound-hover.hover:after {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.sound-hover:hover figcaption,
+.sound-hover.hover figcaption {
+  opacity: 1;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+
+/* Circle Icons*/
+
+.circle-box {
+width: 250px;
+height: 250px;
+padding: 15px;
+line-height: 250px;
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+text-align: center;
+color:#fff;
+font-size: 16px;
+margin: 0 auto 30px;
+/*margin: 0 65% 0px;*/
+-webkit-transition: all 0.2s;
+transition: all 0.2s;
+background: #EBAB58;
+background: transparent;
+border: 2px solid #fff;
+}
+.circle-box h2 {
+    font-size: 25px;
+}
+
+.circle-box:hover {
+background: #000;
+background: #EBAB58;
+    border: 2px solid #fff;
+}
+
+.circle-box:hover .ico1, .circle-box:hover .ico2, .circle-box:hover .ico3, .circle-box:hover .ico4 {
+filter: invert(100%);
+}
+
+.icon-invert {
+filter: invert(1);
+} 
+.ico1 {
+    width: 50px;
+    height: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://biz24.online/image/313975/check.png);
+}
+.ico2 {
+    width: 66px;
+    height: 61px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://biz24.online/image/313976/friends.png);
+}
+.ico3 {
+    width: 55px;
+    height: 55px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://biz24.online/image/339638/Union.png);
+}
+.ico4 {
+    width: 60px;
+    height: 67px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://biz24.online/image/313977/land.png);
+}
+
+/* css forms*/
+
+.well, .form-section, .form-widget, .widget-form, .top-multiple-widget, .cubics-widget {
+    background-color: transparent;
+    padding: 0px;
+}
+
+.form-control, .form-section form.biznestream-form > ul > li input[type="text"], .form-widget form.biznestream-form > ul > li input[type="text"], .widget-form form.biznestream-form > ul > li input[type="text"], .form-section form.biznestream-form > ul > li textarea, .form-widget form.biznestream-form > ul > li textarea, .widget-form form.biznestream-form > ul > li textarea, .form-section form.biznestream-form > ul > li select, .form-widget form.biznestream-form > ul > li select, .widget-form form.biznestream-form > ul > li select, .default-section form.biznestream-form > ul > li input[type="text"], .default-section form.biznestream-form > ul > li textarea, .default-section form.biznestream-form > ul > li select, #slideout form.biznestream-form > ul > li input[type="text"], #slideout form.biznestream-form > ul > li textarea, #slideout form.biznestream-form > ul > li select {
+    background-color: transparent;
+color: #fff;
+}
+.c-indicator {
+    background-color: transparent;
+}
+
+select option {	
+	background:var(--main-color)!important;
+	color: #fff;
+}
+.form-section form.biznestream-form h3, .form-widget form.biznestream-form h3, .widget-form form.biznestream-form h3 {
+    text-align: center;
+    font-size: 6vh;
+}
+
+.content-section h2, .titleh, .title_product {
+    margin-bottom: 15px;
+}
+
+.content-section-2 {
+padding:15px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+footer .navbar {
+display:none;
+}

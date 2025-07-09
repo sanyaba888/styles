@@ -1,0 +1,521 @@
+:root {
+  --main-color: #000;
+  --hover-color: #000;
+}
+
+
+/*MEGA MENU FIX*/
+@media (min-width: 1200px) {
+.navbar-toggle {
+    display: block;
+}
+
+.navbar-nav > li {
+    float: none;
+}
+
+.navbar-collapse.collapse {
+    display: none!important;
+}
+
+.collapse.in {
+    display: block!important;
+}
+}
+
+
+.navbar-container .container > .navbar-header {
+    margin: 0;
+	margin-top: 15px;
+    position: fixed;
+    z-index: 11111111111111111;
+}
+
+.navbar-container .navbar.navbar-fixed-top .container .top-panel {
+    margin-top: 150px!important;
+}
+
+.navbar-container .navbar .container .top-panel {
+ margin-top: 150px;
+}
+
+.navbar-container .navbar.navbar-fixed-top {
+    animation: none!important;
+}
+
+/*MENU FIX END*/
+
+
+
+/*MENU STYLE*/
+
+header.no-header-widgets {
+    padding-top: 20vh;
+}
+
+
+
+.top-panel {
+display: none!important;
+}
+
+.navbar-container .navbar-header {
+    width: 33%;
+}
+
+.navbar-container .navbar-toggle {
+    /*position: fixed;*/
+    /*left: 50%;*/
+    z-index: 111;
+    margin: 10px 15px;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand, .navbar > .default-page .container .container .navbar-brand, .default-page .container .navbar > .container .navbar-brand {
+    padding: 15px!important;
+	/*padding:10px;*/
+    margin: 0;
+}
+
+.navbar-container .navbar.navbar-fixed-top {
+    background: transparent;
+    box-shadow: none;
+}
+.navbar-container .navbar.navbar-fixed-top .container .navbar-brand img {
+    max-width: 205px;
+}
+
+.navbar-container .navbar.navbar-fixed-top .container .navbar-brand {
+    padding: 15px!important;
+	/*padding: 10px;*/
+    margin: 0;
+	/*background: rgba(0, 0, 0, 0.8);*/
+}
+
+.navbar-container .navbar.navbar-fixed-top .container .navbar-brand img {
+    /*background: rgba(0, 0, 0, 0.8);*/
+}
+
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 100vh;
+    min-height: 100vh;
+}
+
+.navbar-container .navbar-header {
+    text-align: right;
+}
+
+
+.navbar-container .navbar-collapse {
+    padding: 0 20% 0 20%;
+    background-color: rgb(77 75 74 / 98%);
+    width: 100%;
+	z-index: 1;
+	position: absolute;
+}
+
+.navbar-container .container {
+    width: 100%;
+}
+
+
+.navbar-container .navbar-nav {
+    font-size: 40px;
+}
+
+.navbar-nav > li {
+    float: none;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.navbar-container .navbar {
+    background: transparent;
+}
+
+.navbar-container .navbar-nav {
+    font-size: 4vh!important;
+	text-transform: uppercase;
+}
+
+.navbar-collapse.collapse {
+height: 100vh!important;
+}
+
+#bs-example-navbar-collapse-1 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar-nav > li {
+    display: block;
+    text-align: left;
+}
+
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav > li > a:focus {
+    background-color: var(--main-color) !important;
+	background-color: transparent !important;
+    /*text-shadow: 0 0 5px var(--main-color), 0 0 10px var(--main-color), 0 0 15px var(--main-color), 0 0 20px var(--main-color), 0 0 30px var(--main-color), 0 0 40px var(--main-color), 0 0 55px var(--main-color), 0 0 75px var(--main-color);*/
+    /*color: var(--main-color);*/
+	color:#ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    /*background-color: var(--main-color) !important;*/
+	/*background-color: #ababab!important;*/
+	color:#ffffff;
+	border-radius: 5px;
+	background-color: transparent !important;
+	/*color: var(--main-color);*/
+}
+
+.navbar-default .navbar-nav > .active:before {
+   /* content: ">>";
+    color: var(--main-color);
+    position: absolute;
+    z-index: 1;
+    left: 0;*/
+}
+
+.navbar-default .navbar-nav > .active:after {
+    /*content: "<<";
+    color: var(--main-color);
+    position: absolute;
+	z-index: 1;
+    top: 0;
+    right: 0;*/
+}
+
+.dropdown-menu {
+    position: relative;
+    display: block;
+    float: none;
+    background-color: transparent;
+    box-shadow: none;
+	border: none;
+	margin:0;
+}
+
+
+.dropdown-menu > li > a {
+    color: #fff;
+}
+
+.navbar-container .dropdown-menu li.active > a, .navbar-container .dropdown-menu li a:hover, .navbar-container .dropdown-menu li a:focus {
+    background-color: transparent;
+    color: #e6e6e6;
+}
+
+
+
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 320px) {
+.navbar-container .navbar-collapse {
+    max-height: 100vh;
+}
+.navbar-container .navbar .container .navbar-collapse {
+    padding: 0;
+    margin: 0;
+}
+.navbar-container .navbar {
+	box-shadow: none;
+	overflow: visible;
+}
+
+.navbar-container .navbar.navbar-fixed-top .container .navbar-brand img {
+    max-width: 150px;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav > li > a:focus {
+    background-color: var(--main-color) !important;
+	background-color: transparent !important;
+   /* text-shadow: 0 0 5px var(--main-color), 0 0 10px var(--main-color), 0 0 15px var(--main-color), 0 0 20px var(--main-color), 0 0 30px var(--main-color), 0 0 40px var(--main-color), 0 0 55px var(--main-color), 0 0 75px var(--main-color);*/
+    color: #fff!important;
+}
+
+
+
+.navbar-nav > li {
+    width: 100%;
+}
+.navbar-container .navbar-nav {
+    width: 100%;
+}
+
+.navbar-nav > li {
+    margin: 0;
+}
+
+.navbar-container .navbar-nav > li > a {
+    padding: 5px 10px;
+}
+
+.navbar-nav > li > a {
+    line-height: 100%;
+}
+
+.navbar-container .dropdown-menu > li > a, .navbar-container .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px !important;
+}
+
+.navbar-container .plus {
+    display: none!important;
+
+}
+}
+/*MENU STYLE END*/
+
+
+
+/* BURGER TRANSFORM MENU*/
+
+.navbar-toggle .icon-bar {
+    transition: 0.55s 0.1s;
+}
+
+.toggled8 span:nth-child(2) {
+	transform: rotate(45deg);
+    transition: 0.55s 0.1s;
+	box-shadow: none!important;
+}
+
+.toggled8 span:nth-child(3) {
+	transform: rotate(-45deg);
+    transition: 0.55s 0.1s;
+	margin-top: -2px!important;
+	box-shadow: none!important;
+}
+
+.toggled8 span:nth-child(4) {
+	transform: rotate(-45deg);
+    transition: 0.55s 0.1s;
+	margin-top: -8px!important;
+	opacity:0;
+	box-shadow: none!important;
+}
+
+.navbar-container .navbar .container .navbar-toggle {
+    min-height: 42px; 
+}
+
+.navbar-container .navbar-toggle:hover, .navbar-container .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fa4795;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 8px;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 40px;
+    height: 2px;
+   /* border-radius: 2px;*/
+}
+
+.navbar-container .navbar-toggle {
+    background-color: transparent;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: var(--main-color);
+}
+
+
+/* END BURGER TRANSFORM MENU*/
+
+
+
+/* accordion*/
+
+.more-info {
+background: #ffffff;
+    display: inline;
+    padding: 10px 30px;
+    margin: 30px 0;
+    border: 1px solid #b5b5b5;
+}
+
+}
+.accordion {
+  background-color: transparent;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    transition: 0.4s;
+    font-weight: 100;
+}
+
+
+
+.panel-accordion {
+  padding: 0 18px;
+  margin:0;
+  background-color: transparent;
+  border:none;
+  text-align: center;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  box-shadow: none;
+}
+
+.accordion:hover {
+    color: var(--main-color);
+	background-color: transparent;
+}
+
+.accordion li {
+font-weight: 100;
+}
+.panel > p {
+    padding: 0;
+	/*margin:0;*/
+}
+
+.panel a {
+    margin: 25px 0px;
+}
+
+.panel li {
+	font-weight: 600;
+}
+
+.panel h3 {
+    font-family: Oswald, sans-serif;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.service-list .panel {
+  padding: 0;
+  margin:0;
+  background-color: transparent;
+  border:none;
+      text-align: center;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  box-shadow: none;
+}
+
+.accordion:hover {
+    color: var(--main-color);
+	background-color: transparent;
+}
+
+.accordion li {
+font-weight: 100;
+}
+
+
+.service-list button {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+button .more-info {
+    outline: none;
+}
+button:focus {
+    outline: none;
+
+}
+
+.more-info:hover {
+        background: #efefef;
+}
+
+.service-list {
+margin: 150px 0;
+}
+
+
+/* end accordion*/
+
+
+/* widget shop*/
+
+.lang-wrapper-side {
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Gotham Black";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    margin-left: 0px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.lang-side-vis {
+    opacity: 1;
+}
+
+.lang-side-fixed {
+    position: fixed;
+    bottom: 50px;
+    right: -100px;
+    z-index: 100;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+@media only screen and (max-device-width: 991px) and (min-device-width: 320px) {
+
+.lang-side-trans {
+    opacity: 0!important;
+    margin-left: -50px;
+}}
+
+
+/* widget shop*/
+
+
+/*bug fix*/
+@media only screen and (max-device-width: 1024px) and (min-device-width: 320px) {
+.navbar-nav > li {
+    margin: 0 15px;
+}}
+
+
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 320px) {
+.paralax1, .paralax2, .paralax3, .air_1, .natur_1, .paralax_bodenbeschaffenheit, .paralax_weinberglage, .paralax_weinkeller, .paralax_weinkeller2, .paralax_weinkeller3, .paralax_weinkeller4, .paralax_weinproben   {
+background-attachment: scroll!important;
+}}
+

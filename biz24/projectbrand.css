@@ -1,0 +1,803 @@
+/* main */
+
+:root {
+  --navbar-color: #f1f1f1;
+  --hover-color: #fa4695;
+  --btn-color: #fa4695;
+  --btn-hover-color: #ffffff;
+
+}
+
+.head-default-widget, .head-slider-widget, .landing-page-widget {
+    max-height: 30vh;
+}
+
+.section .container {
+background: #fff;
+}
+
+.container {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.section {
+    margin-bottom: 0;
+}
+
+
+
+
+.product-section .view-list .product-item {
+    /*padding-left: 30px;*/
+    /*padding-right: 30px;*/
+}
+
+
+  .page-wrapper {
+    min-height: 100vh;
+    padding-bottom: 45px;
+    position: relative;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+p {
+    line-height: 1.8;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1, h2, h3 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+    line-height: 1.4;
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+h1 {
+	
+	margin-bottom: 30px;
+}
+
+.text-center {
+	/*text-align: right;*/
+	text-align: left;
+}
+
+
+  footer .nav { width: 100% }
+  footer .nav li:last-child { float: right }
+
+.top-panel li:first-child a {
+	color: transparent!important;
+    background: url(https://image.biznestream.biz/296189/24biz.png);
+    text-decoration: none;
+    cursor: pointer;
+    background-size: 100%;
+    background-position: 3px 3px;
+    background-repeat: no-repeat!important;
+    line-height: 22px;
+    opacity: 1;
+    transition: .3s;
+	margin: 10px 10px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 0px;
+	height: 0;
+	/*margin: 30px 0;*/
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+footer .navbar-nav li:last-child a {
+    color: transparent!important;
+    background: url(https://image.biznestream.biz/296189/24biz.png);
+    text-decoration: none;
+    cursor: pointer;
+    background-size: 180px;
+    background-position: 20px 20px;
+    min-width: 137px;
+    background-repeat: no-repeat!important;
+    width: 100%;
+    height: 73px;
+    /* margin: 0 200%; */
+    opacity: 1;
+    transition: .3s;
+}
+ 
+footer .navbar-nav li:last-child a:hover, .top-panel li:first-child a:hover {
+opacity:0.4;
+background-color: transparent!important;
+}
+
+@media only screen and (max-device-width: 991px) and (min-device-width: 320px) {
+
+footer .navbar-nav li:last-child a {
+    margin: 50px 15px!important;
+}
+
+footer .nav li:last-child { 
+    float: none;
+}
+}
+
+
+
+
+.btn-primary, .main-btn .btn, .main-btn .form-section form.biznestream-form > ul > li button, .form-section form.biznestream-form > ul > li .main-btn button, .main-btn .form-widget form.biznestream-form > ul > li button, .form-widget form.biznestream-form > ul > li .main-btn button, .main-btn .widget-form form.biznestream-form > ul > li button, .widget-form form.biznestream-form > ul > li .main-btn button, .main-btn .default-section form.biznestream-form > ul > li button, .default-section form.biznestream-form > ul > li .main-btn button, .main-btn #slideout form.biznestream-form > ul > li button, #slideout form.biznestream-form > ul > li .main-btn button {
+    background-color: var(--btn-color);
+    border-color: var(--btn-color);
+}
+
+.btn-primary:hover, .main-btn .btn:hover, .main-btn .form-section form.biznestream-form > ul > li button:hover, .form-section form.biznestream-form > ul > li .main-btn button:hover, .main-btn .form-widget form.biznestream-form > ul > li button:hover, .form-widget form.biznestream-form > ul > li .main-btn button:hover, .main-btn .widget-form form.biznestream-form > ul > li button:hover, .widget-form form.biznestream-form > ul > li .main-btn button:hover, .main-btn .default-section form.biznestream-form > ul > li button:hover, .default-section form.biznestream-form > ul > li .main-btn button:hover, .main-btn #slideout form.biznestream-form > ul > li button:hover, #slideout form.biznestream-form > ul > li .main-btn button:hover {
+    background-color: var(--btn-color);
+    border-color: var(--btn-color);
+	opacity:0.8;
+}
+
+.form-section form.biznestream-form > ul > li button[type="submit"]:hover, .form-widget form.biznestream-form > ul > li button[type="submit"]:hover, .widget-form form.biznestream-form > ul > li button[type="submit"]:hover, .form-section form.biznestream-form > ul > li button[type="button"]:hover, .form-widget form.biznestream-form > ul > li button[type="button"]:hover, .widget-form form.biznestream-form > ul > li button[type="button"]:hover {
+    background-color: var(--btn-color);
+    border-color: var(--btn-color);
+	opacity:0.8;
+}
+
+
+.form-section form.biznestream-form > ul > li button[type="submit"], .form-widget form.biznestream-form > ul > li button[type="submit"], .widget-form form.biznestream-form > ul > li button[type="submit"], .form-section form.biznestream-form > ul > li button[type="button"], .form-widget form.biznestream-form > ul > li button[type="button"], .widget-form form.biznestream-form > ul > li button[type="button"] {
+	background-color: var(--btn-color);
+    border-color: var(--btn-color);
+}
+
+.btn-primary:active, .main-btn .btn:active, .main-btn .form-section form.biznestream-form > ul > li button:active, .form-section form.biznestream-form > ul > li .main-btn button:active, .main-btn .form-widget form.biznestream-form > ul > li button:active, .form-widget form.biznestream-form > ul > li .main-btn button:active, .main-btn .widget-form form.biznestream-form > ul > li button:active, .widget-form form.biznestream-form > ul > li .main-btn button:active, .main-btn .default-section form.biznestream-form > ul > li button:active, .default-section form.biznestream-form > ul > li .main-btn button:active, .main-btn #slideout form.biznestream-form > ul > li button:active, #slideout form.biznestream-form > ul > li .main-btn button:active, .btn-primary.active, .main-btn .btn.active, .main-btn .form-section form.biznestream-form > ul > li button.active, .form-section form.biznestream-form > ul > li .main-btn button.active, .main-btn .form-widget form.biznestream-form > ul > li button.active, .form-widget form.biznestream-form > ul > li .main-btn button.active, .main-btn .widget-form form.biznestream-form > ul > li button.active, .widget-form form.biznestream-form > ul > li .main-btn button.active, .main-btn .default-section form.biznestream-form > ul > li button.active, .default-section form.biznestream-form > ul > li .main-btn button.active, .main-btn #slideout form.biznestream-form > ul > li button.active, #slideout form.biznestream-form > ul > li .main-btn button.active, .open > .btn-primary.dropdown-toggle, .main-btn .open > .btn.dropdown-toggle, .main-btn .form-section form.biznestream-form > ul > li .open > button.dropdown-toggle, .form-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle, .main-btn .form-widget form.biznestream-form > ul > li .open > button.dropdown-toggle, .form-widget form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle, .main-btn .widget-form form.biznestream-form > ul > li .open > button.dropdown-toggle, .widget-form form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle, .main-btn .default-section form.biznestream-form > ul > li .open > button.dropdown-toggle, .default-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle, .main-btn #slideout form.biznestream-form > ul > li .open > button.dropdown-toggle, #slideout form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle {
+    background-color: var(--btn-color);
+    border-color: var(--btn-color);
+}
+
+.btn-primary:active:hover, .main-btn .btn:active:hover, .main-btn .form-section form.biznestream-form > ul > li button:active:hover, .form-section form.biznestream-form > ul > li .main-btn button:active:hover, .main-btn .form-widget form.biznestream-form > ul > li button:active:hover, .form-widget form.biznestream-form > ul > li .main-btn button:active:hover, .main-btn .widget-form form.biznestream-form > ul > li button:active:hover, .widget-form form.biznestream-form > ul > li .main-btn button:active:hover, .main-btn .default-section form.biznestream-form > ul > li button:active:hover, .default-section form.biznestream-form > ul > li .main-btn button:active:hover, .main-btn #slideout form.biznestream-form > ul > li button:active:hover, #slideout form.biznestream-form > ul > li .main-btn button:active:hover, .btn-primary.active:hover, .main-btn .btn.active:hover, .main-btn .form-section form.biznestream-form > ul > li button.active:hover, .form-section form.biznestream-form > ul > li .main-btn button.active:hover, .main-btn .form-widget form.biznestream-form > ul > li button.active:hover, .form-widget form.biznestream-form > ul > li .main-btn button.active:hover, .main-btn .widget-form form.biznestream-form > ul > li button.active:hover, .widget-form form.biznestream-form > ul > li .main-btn button.active:hover, .main-btn .default-section form.biznestream-form > ul > li button.active:hover, .default-section form.biznestream-form > ul > li .main-btn button.active:hover, .main-btn #slideout form.biznestream-form > ul > li button.active:hover, #slideout form.biznestream-form > ul > li .main-btn button.active:hover, .open > .btn-primary.dropdown-toggle:hover, .main-btn .open > .btn.dropdown-toggle:hover, .main-btn .form-section form.biznestream-form > ul > li .open > button.dropdown-toggle:hover, .form-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:hover, .main-btn .form-widget form.biznestream-form > ul > li .open > button.dropdown-toggle:hover, .form-widget form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:hover, .main-btn .widget-form form.biznestream-form > ul > li .open > button.dropdown-toggle:hover, .widget-form form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:hover, .main-btn .default-section form.biznestream-form > ul > li .open > button.dropdown-toggle:hover, .default-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:hover, .main-btn #slideout form.biznestream-form > ul > li .open > button.dropdown-toggle:hover, #slideout form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:hover, .btn-primary:active:focus, .main-btn .btn:active:focus, .main-btn .form-section form.biznestream-form > ul > li button:active:focus, .form-section form.biznestream-form > ul > li .main-btn button:active:focus, .main-btn .form-widget form.biznestream-form > ul > li button:active:focus, .form-widget form.biznestream-form > ul > li .main-btn button:active:focus, .main-btn .widget-form form.biznestream-form > ul > li button:active:focus, .widget-form form.biznestream-form > ul > li .main-btn button:active:focus, .main-btn .default-section form.biznestream-form > ul > li button:active:focus, .default-section form.biznestream-form > ul > li .main-btn button:active:focus, .main-btn #slideout form.biznestream-form > ul > li button:active:focus, #slideout form.biznestream-form > ul > li .main-btn button:active:focus, .btn-primary.active:focus, .main-btn .btn.active:focus, .main-btn .form-section form.biznestream-form > ul > li button.active:focus, .form-section form.biznestream-form > ul > li .main-btn button.active:focus, .main-btn .form-widget form.biznestream-form > ul > li button.active:focus, .form-widget form.biznestream-form > ul > li .main-btn button.active:focus, .main-btn .widget-form form.biznestream-form > ul > li button.active:focus, .widget-form form.biznestream-form > ul > li .main-btn button.active:focus, .main-btn .default-section form.biznestream-form > ul > li button.active:focus, .default-section form.biznestream-form > ul > li .main-btn button.active:focus, .main-btn #slideout form.biznestream-form > ul > li button.active:focus, #slideout form.biznestream-form > ul > li .main-btn button.active:focus, .open > .btn-primary.dropdown-toggle:focus, .main-btn .open > .btn.dropdown-toggle:focus, .main-btn .form-section form.biznestream-form > ul > li .open > button.dropdown-toggle:focus, .form-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:focus, .main-btn .form-widget form.biznestream-form > ul > li .open > button.dropdown-toggle:focus, .form-widget form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:focus, .main-btn .widget-form form.biznestream-form > ul > li .open > button.dropdown-toggle:focus, .widget-form form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:focus, .main-btn .default-section form.biznestream-form > ul > li .open > button.dropdown-toggle:focus, .default-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:focus, .main-btn #slideout form.biznestream-form > ul > li .open > button.dropdown-toggle:focus, #slideout form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle:focus, .btn-primary:active.focus, .main-btn .btn:active.focus, .main-btn .form-section form.biznestream-form > ul > li button:active.focus, .form-section form.biznestream-form > ul > li .main-btn button:active.focus, .main-btn .form-widget form.biznestream-form > ul > li button:active.focus, .form-widget form.biznestream-form > ul > li .main-btn button:active.focus, .main-btn .widget-form form.biznestream-form > ul > li button:active.focus, .widget-form form.biznestream-form > ul > li .main-btn button:active.focus, .main-btn .default-section form.biznestream-form > ul > li button:active.focus, .default-section form.biznestream-form > ul > li .main-btn button:active.focus, .main-btn #slideout form.biznestream-form > ul > li button:active.focus, #slideout form.biznestream-form > ul > li .main-btn button:active.focus, .btn-primary.active.focus, .main-btn .btn.active.focus, .main-btn .form-section form.biznestream-form > ul > li button.active.focus, .form-section form.biznestream-form > ul > li .main-btn button.active.focus, .main-btn .form-widget form.biznestream-form > ul > li button.active.focus, .form-widget form.biznestream-form > ul > li .main-btn button.active.focus, .main-btn .widget-form form.biznestream-form > ul > li button.active.focus, .widget-form form.biznestream-form > ul > li .main-btn button.active.focus, .main-btn .default-section form.biznestream-form > ul > li button.active.focus, .default-section form.biznestream-form > ul > li .main-btn button.active.focus, .main-btn #slideout form.biznestream-form > ul > li button.active.focus, #slideout form.biznestream-form > ul > li .main-btn button.active.focus, .open > .btn-primary.dropdown-toggle.focus, .main-btn .open > .btn.dropdown-toggle.focus, .main-btn .form-section form.biznestream-form > ul > li .open > button.dropdown-toggle.focus, .form-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle.focus, .main-btn .form-widget form.biznestream-form > ul > li .open > button.dropdown-toggle.focus, .form-widget form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle.focus, .main-btn .widget-form form.biznestream-form > ul > li .open > button.dropdown-toggle.focus, .widget-form form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle.focus, .main-btn .default-section form.biznestream-form > ul > li .open > button.dropdown-toggle.focus, .default-section form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle.focus, .main-btn #slideout form.biznestream-form > ul > li .open > button.dropdown-toggle.focus, #slideout form.biznestream-form > ul > li .main-btn .open > button.dropdown-toggle.focus {
+    background-color: var(--btn-color);
+    border-color: var(--btn-color);
+	opacity:0.8;
+}
+
+
+.navbar-container .navbar-collapse {
+    background: transparent;
+}
+
+.navbar-container .navbar.navbar-fixed-top {
+	background: #fff;
+	
+	
+}
+
+
+
+.navbar-container .navbar-collapse > div {
+    margin-top: 20px;
+}
+
+.navbar-container .navbar-nav, .navbar-container .dropdown-menu li > a {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.default-section .section-text.without-images, .wide-section .section-text.without-images {
+    text-align: left;
+}
+
+.default-section .section-image, .wide-section .section-image {
+    margin: 0;
+}
+
+.default-section .section-text, .wide-section .section-text {
+    text-align: left;
+    float: none;
+}
+
+.default-section a.img-centered, .wide-section a.img-centered {
+    margin-bottom: 0px;
+}
+
+
+.default-section .section-image, .wide-section .section-image {
+	padding:0;
+	padding-right: 15px;
+}
+
+
+@media only screen and (max-device-width: 768px) and (min-device-width: 320px){ 
+.default-section .section-image, .wide-section .section-image {
+	padding:15px;
+}
+
+}
+
+
+/* map*/
+
+.map-section .info {
+    padding: 15px;
+    background: var(--btn-color);
+    color: #fff;
+	opacity: 0.9;
+	height: 290px;
+	text-transform: uppercase;
+}
+
+@media only screen and (max-device-width: 768px) and (min-device-width: 320px){
+.wide-page .map-section .info {
+    padding: 15px 15px !important;
+}}
+
+
+
+/* map end*/
+
+
+
+/* header*/
+
+.page-wrapper {
+  padding-top: 105px;	
+}
+
+@media only screen and (max-device-width: 768px) and (min-device-width: 320px) {
+	.page-wrapper {
+  padding-top: 54px;	
+}
+}
+
+.navbar-container .navbar-toggle {
+    background-color: var(--btn-color);
+	border: none;
+}
+
+
+.head-slider-widget .head-text-container .widget-text {
+    padding: 0px;
+    background: transparent;
+}
+
+.head-slider-widget .fill {
+    min-height: 40vh;
+}
+.head-slider-widget .header-carousel .carousel .carousel-indicators {
+    display: block;
+}
+
+.carousel-indicators .active {
+    height: 12px!important;
+}
+
+.widget-head-slider {
+    margin: 0 auto;
+}
+
+.carousel-indicators li {
+    border: 1px solid #000;
+}
+
+
+@media (min-width: 1200px) {
+.widget-head-slider {
+    width: 1170px;
+}}
+
+/*** Mobile style ***/
+/* Header slider */
+@media screen and (max-width: 1024px) {
+	.head-slider-widget .header-carousel .carousel .fill {
+    min-height: 400px !important;
+	}
+}
+@media screen and (max-width: 415px) {
+	.head-slider-widget .header-carousel .carousel .fill {
+    min-height: 160px !important;
+	}
+}
+/* end header*/
+
+
+/* product css*/
+
+
+.btn-group > .btn:last-child:not(:first-child) {
+	display:none;
+}
+
+.product-section .product-image {
+   /* background: var(--navbar-color);*/
+}
+
+.product-section .product-item .thumbnail, .product-section .product-item .product-attributes-container, .product-section .product-item .product-info {
+	background: #fff;
+}
+
+.product-section .filter-container {
+    border: none;
+    /*background: var(--navbar-color);*/
+    /*color: #fff;*/
+	margin-left: -15px;
+    margin-right: -15px;
+}
+
+.product-section .filter-container .filter-header:hover {
+    background-color: transparent;
+}
+
+.product-section .product-image img {
+    width: 100%;
+/*padding: 10px;*/
+}
+
+.product-section .product-info {
+    padding: 10px;
+    max-height: 170px;
+}
+
+.product-section .product-image {
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    line-height: normal;
+}
+
+.product-section .product-item:hover .thumbnail, .product-section .product-item:hover .product-attributes-container, .product-section .product-item:hover .product-info {
+    background: #efefef;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.product-item:hover .product-attributes .attribute {
+   /* color: var(--hover-color)!important;*/
+}
+
+.product-item:hover .product-title .h3 {
+    color: #fff;
+}
+
+.product-attributes {
+	font-size: 30px;
+}
+
+.product-section .list-view-post .product-attributes .attribute dd .attribute-rich-text, .product-section .list-view-post .product-attributes .attribute dd .text-ellipsis {
+    overflow: visible;
+	max-height: none;
+}
+
+.product-image img {
+ transform: scale(1);
+ transition: all 0.4s ease-in-out;
+}
+
+.product-item:hover .product-image img {
+ /*filter: blur(8px);*/
+ /*transform: scale(1.1);*/
+opacity: 0.6;
+}
+
+.img-overlay-container .overlay {
+    background-color: rgb(255, 255, 255);
+	background-color: #000;
+}
+
+.text-ellipsis {
+    white-space: normal;
+	overflow: visible;
+}
+
+.main-btn span {
+    text-transform: uppercase;
+}
+
+.product-section .product-filter-outer .btn-toolbar {
+    background: transparent;
+    padding-top: 15px;
+    opacity: 1;
+}
+
+.product-section .products-navigation {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.product-section .list-view-null .product-attributes .attribute { 
+}
+
+.product-section .list-view- .product-attributes .attribute, .product-section .list-view-product .product-attributes .attribute, .product-section .block-related-products .product-attributes .attribute, .product-section .list-view-null .product-attributes .attribute {
+    color: #000;
+    font-size: 15px;
+}
+
+.panel-group .text-ellipsis {
+   color: #000;
+}
+
+
+.tooltipped:after, .tooltipped-n:before {
+	display:none!important;
+}
+
+.panel {
+    margin-bottom: 25px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+
+.product-section .product-page h1 {
+    font-size: 45px;
+	text-transform: none;
+}
+
+
+.list-view-null .product-page .product-attributes .attribute dd {
+    color: #000;
+    text-align: justify;
+}
+
+.panel-body a {
+    color: #ff0000;
+    font-weight: 900;
+}
+
+.panel {
+    box-shadow: none;
+}
+
+.product-section .filter-container .product-filters-popup {
+    padding: 15px;
+}
+
+.product-filters-popup .row {
+margin:0;
+}
+
+.product-section .product-filters-container {
+    padding: 0;
+}
+
+.product-section .product-buttons-container {
+        padding: 0;
+}
+
+.product-section .product-filters-container .product-filter {
+    padding: 0;
+    padding-right: 10px;
+}
+
+
+
+.product-section .filter-container .filter-header {
+    padding: 5px 0px 5px 15px;
+}
+
+.product-section .product-image {
+    background: #fff;
+}
+
+.product-image:after {
+    content: ' ';
+    display: block;
+    /*background: url(https://image.biznestream.biz/280555/logo2.png) no-repeat;*/
+    position: absolute;
+    top: 38%;
+    left: calc(50% - 90px);
+    height: 100%;
+    background-size: 180px;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+.product-item:hover .product-image:after{
+    opacity: 1;
+}
+.product-section .product-image img {
+   /* margin-top: 45px;*/
+}
+
+.img-overlay-container .overlay .btn {
+    left: 50%;
+    top: 80%;
+    z-index: 6;
+    /*transform: none;*/
+}
+
+
+.product-section .product-item .product-title .h3 {
+   color: var(--hover-color);
+   color: #000;
+}
+
+.product-item:hover .product-title .h3 {
+   color: var(--hover-color)!important;
+	
+}
+
+
+.product-section .view-grid .main-btn .btn {
+/*min-width: 100%;*/
+}
+
+.product-section .product-item .product-title .h3 {
+    margin: 0 0 15px;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: transparent;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: var(--hover-color);
+}
+
+.list-view- .product-page h1, .list-view-product .product-page h1, .list-view-post .product-page h1, .list-view-null .product-page h1 {
+    font-family: inherit!important;
+	letter-spacing: 2px;
+}
+
+.list-view- .product-page .accordion-toggle, .list-view-product .product-page .accordion-toggle, .list-view-post .product-page .accordion-toggle, .list-view-null .product-page .accordion-toggle {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+
+.table-hover > tbody > tr:hover {
+    background-color: var(--hover-color);
+    color: #fff;
+}
+
+
+@media only screen and (max-device-width: 768px) and (min-device-width: 320px) {
+
+.view-grid .product-image {
+    width: 100% !important;
+}
+
+.view-grid .product-info {
+    width: 100% !important;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--btn-color);
+    border-color: var(--btn-color);
+}
+
+.product-section .product-page h1 {
+    font-size: 25px;
+}
+}
+
+/*form css*/
+
+.form_input {
+color: #f00;
+}
+
+form.biznestream-form button {
+    margin-right: 2px;
+    background-color: var(--hover-color);
+    border: 0;
+    padding: 6px 12px!important;
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+form.biznestream-form button:hover {
+
+background-color:rgb(152, 1, 9);
+}
+
+form.biznestream-form ul li input[type="text"], form.biznestream-form ul li select, form.biznestream-form ul li textarea {
+    width: 100%;
+    min-height: 40px !important;
+}
+
+.img-overlay-container .overlay {
+  transition: none;
+}
+
+.form-section form.biznestream-form h3, .form-widget form.biznestream-form h3, .widget-form form.biznestream-form h3 {
+	    font-weight: 800;
+	
+}
+
+
+.form-control[disabled], .form-section form.biznestream-form > ul > li input[type="text"][disabled], .form-widget form.biznestream-form > ul > li input[type="text"][disabled], .widget-form form.biznestream-form > ul > li input[type="text"][disabled], .form-section form.biznestream-form > ul > li textarea[disabled], .form-widget form.biznestream-form > ul > li textarea[disabled], .widget-form form.biznestream-form > ul > li textarea[disabled], .form-section form.biznestream-form > ul > li select[disabled], .form-widget form.biznestream-form > ul > li select[disabled], .widget-form form.biznestream-form > ul > li select[disabled], .default-section form.biznestream-form > ul > li input[type="text"][disabled], .default-section form.biznestream-form > ul > li textarea[disabled], .default-section form.biznestream-form > ul > li select[disabled], #slideout form.biznestream-form > ul > li input[type="text"][disabled], #slideout form.biznestream-form > ul > li textarea[disabled], #slideout form.biznestream-form > ul > li select[disabled], .form-control[readonly], .form-section form.biznestream-form > ul > li input[type="text"][readonly], .form-widget form.biznestream-form > ul > li input[type="text"][readonly], .widget-form form.biznestream-form > ul > li input[type="text"][readonly], .form-section form.biznestream-form > ul > li textarea[readonly], .form-widget form.biznestream-form > ul > li textarea[readonly], .widget-form form.biznestream-form > ul > li textarea[readonly], .form-section form.biznestream-form > ul > li select[readonly], .form-widget form.biznestream-form > ul > li select[readonly], .widget-form form.biznestream-form > ul > li select[readonly], .default-section form.biznestream-form > ul > li input[type="text"][readonly], .default-section form.biznestream-form > ul > li textarea[readonly], .default-section form.biznestream-form > ul > li select[readonly], #slideout form.biznestream-form > ul > li input[type="text"][readonly], #slideout form.biznestream-form > ul > li textarea[readonly], #slideout form.biznestream-form > ul > li select[readonly], fieldset[disabled] .form-control, fieldset[disabled] .form-section form.biznestream-form > ul > li input[type="text"], .form-section form.biznestream-form > ul > li fieldset[disabled] input[type="text"], fieldset[disabled] .form-widget form.biznestream-form > ul > li input[type="text"], .form-widget form.biznestream-form > ul > li fieldset[disabled] input[type="text"], fieldset[disabled] .widget-form form.biznestream-form > ul > li input[type="text"], .widget-form form.biznestream-form > ul > li fieldset[disabled] input[type="text"], fieldset[disabled] .form-section form.biznestream-form > ul > li textarea, .form-section form.biznestream-form > ul > li fieldset[disabled] textarea, fieldset[disabled] .form-widget form.biznestream-form > ul > li textarea, .form-widget form.biznestream-form > ul > li fieldset[disabled] textarea, fieldset[disabled] .widget-form form.biznestream-form > ul > li textarea, .widget-form form.biznestream-form > ul > li fieldset[disabled] textarea, fieldset[disabled] .form-section form.biznestream-form > ul > li select, .form-section form.biznestream-form > ul > li fieldset[disabled] select, fieldset[disabled] .form-widget form.biznestream-form > ul > li select, .form-widget form.biznestream-form > ul > li fieldset[disabled] select, fieldset[disabled] .widget-form form.biznestream-form > ul > li select, .widget-form form.biznestream-form > ul > li fieldset[disabled] select, fieldset[disabled] .default-section form.biznestream-form > ul > li input[type="text"], .default-section form.biznestream-form > ul > li fieldset[disabled] input[type="text"], fieldset[disabled] .default-section form.biznestream-form > ul > li textarea, .default-section form.biznestream-form > ul > li fieldset[disabled] textarea, fieldset[disabled] .default-section form.biznestream-form > ul > li select, .default-section form.biznestream-form > ul > li fieldset[disabled] select, fieldset[disabled] #slideout form.biznestream-form > ul > li input[type="text"], #slideout form.biznestream-form > ul > li fieldset[disabled] input[type="text"], fieldset[disabled] #slideout form.biznestream-form > ul > li textarea, #slideout form.biznestream-form > ul > li fieldset[disabled] textarea, fieldset[disabled] #slideout form.biznestream-form > ul > li select, #slideout form.biznestream-form > ul > li fieldset[disabled] select {
+    background-color: #c8c8c8;
+    opacity: 1;
+}
+
+rzslider[disabled] .rz-bar.rz-selection, rzslider[disabled] .rz-pointer {
+    background-color: #c8c8c8;
+}
+
+.c-input > input:checked ~ .c-indicator, .form-section form.biznestream-form > ul > li .form_radio > input:checked ~ .c-indicator, .form-widget form.biznestream-form > ul > li .form_radio > input:checked ~ .c-indicator, .widget-form form.biznestream-form > ul > li .form_radio > input:checked ~ .c-indicator, .form-section form.biznestream-form > ul > li .form_checkbox > input:checked ~ .c-indicator, .form-widget form.biznestream-form > ul > li .form_checkbox > input:checked ~ .c-indicator, .widget-form form.biznestream-form > ul > li .form_checkbox > input:checked ~ .c-indicator, .default-section form.biznestream-form > ul > li .form_radio > input:checked ~ .c-indicator, .default-section form.biznestream-form > ul > li .form_checkbox > input:checked ~ .c-indicator, #slideout form.biznestream-form > ul > li .form_radio > input:checked ~ .c-indicator, #slideout form.biznestream-form > ul > li .form_checkbox > input:checked ~ .c-indicator {
+    color: #fff;
+    background-color: var(--btn-color);
+	
+}
+
+rzslider .rz-pointer {
+    background-color: var(--btn-color);
+}
+
+.product-section .filter-container .filter-header:hover .collapsed-button {
+    background-color: var(--btn-color);
+}
+
+form.biznestream-form ul li b, form.biznestream-form ul li .form_label .name {
+    font-weight: 800;
+}
+
+
+/*end form css*/
+
+/* product css end*/
+
+
+/* widget tel*/
+
+.navbar-container .navbar .container .top-panel {
+    background: transparent;
+}
+
+.widget-menu-text .fa {
+    animation: Rotate 2000ms linear 2000ms 5;
+    animation-iteration-count: infinite;
+}
+
+.navbar-container .navbar-collapse > div {
+    margin-top: 0px;
+}
+
+#widget-31428 > div > p > a:nth-child(1) {
+display:none;
+}
+
+#widget-31428 > div > a {
+display:none;
+}
+
+
+.navbar-container .navbar .container .top-panel .widget-menu {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+.navbar-container .navbar-collapse > div {
+    margin-left: unset;
+}
+
+
+.navbar-container .navbar.navbar-fixed-top .container .top-panel .widget-menu {
+    font-size: 18px;
+    font-weight: 100;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.navbar-container .widget-menu a:hover {
+    background-color: var(--btn-color);
+}
+
+.navbar-container .navbar.navbar-fixed-top .container .top-panel {
+    display: block;
+}
+
+
+@media only screen and (max-device-width: 991px) and (min-device-width: 320px) {
+footer .widget-menu a {
+    color: #fff;
+    background-color: var(--btn-color);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+    font-weight: 800;
+}
+.navbar-container .navbar.navbar-fixed-top .container .top-panel {
+    display: none;
+}
+}
+
+@-webkit-keyframes Rotate { 0% {-webkit-transform:rotate(0deg);} 4% {-webkit-transform:rotate(-45deg);} 8% {-webkit-transform:rotate(0deg);} 12% {-webkit-transform:rotate(-45deg);} 16% {-webkit-transform:rotate(0deg);} 20% {-webkit-transform:rotate(-45deg);} 24% {-webkit-transform:rotate(0deg);} 100% {-webkit-transform:rotate(0deg);} } @keyframes Rotate { 0% {transform:rotate(0deg);} 4% {transform:rotate(-45deg);} 8% {transform:rotate(0deg);} 12% {transform:rotate(-45deg);} 16% {transform:rotate(0deg);} 20% {transform:rotate(-45deg);} 24% {transform:rotate(0deg);} 100% {transform:rotate(0deg);}
+
+/* end tel widget*/
+
+
+}
+
+
+/* menu*/
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: var(--btn-hover-color);
+    background-color: var(--btn-color);
+	opacity: 1;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: var(--btn-hover-color);
+    background-color: var(--btn-color);
+	opacity: 0.6;
+}
+
+.navbar-container .navbar-nav > li > a {
+    letter-spacing: 2px;
+}
+
+
+@media only screen and (max-device-width: 768px) and (min-device-width: 320px) {
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav > li > a:focus {
+    background-color: var(--btn-color)!important;
+}
+
+.navbar-container .navbar-toggle:hover, .navbar-container .navbar-toggle:focus {
+    background-color: var(--btn-color)!important;
+}
+
+.navbar-container .navbar .container .top-panel {
+    display: block!important;
+}
+
+footer .menu-domains {
+    display: none!important;
+}
+
+.product-section .product-item .product-title .h3, .product-section .product-page h1 {
+	font-size: 32px;
+}
+
+.product-attributes {
+	font-size: 24px;
+	
+	
+}
+}
+
+.head-default-widget  {
+	-webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
