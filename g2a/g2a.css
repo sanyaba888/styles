@@ -7373,8 +7373,8 @@ border-radius: var(--menu-radius);
 }
 
 .hks-cards .link-icon {
-    height: 240px;
-    width: 220px;
+   /* height: 240px;*/
+    width: 80%;
     transform: scale(.1);
     transition: transform ease .3s;
     opacity: 0;
